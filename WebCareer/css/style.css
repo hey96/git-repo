@@ -1,0 +1,148 @@
+@import url(reset.css);
+
+body{
+	background: url("../images/main-bg.png");
+	font: 14px/1.5 Arial, Verdana, sans-serif;
+	color: #353535;
+	text-align: center;
+}
+
+h1{
+	font-size: 55px;
+	font-weight: bold;
+	line-height: 1.4;
+}
+
+h2{
+	font-size: 24px;
+}
+
+a{
+	color: #353535;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+#wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+
+header{
+	overflow: hidden;
+}
+
+#logo{
+	width: 204px;
+	height: 136px;
+	float: left;
+	margin-left: -2px;
+}
+
+#menu{
+	width: 960px;
+	height: 70px;
+	background: url("../images/menu-bg.png") no-repeat;
+}
+
+#menu ul{
+	padding-left: 40px;
+	padding-top: 25px;
+	overflow: hidden;
+}
+
+#menu ul li{
+	float: left;
+	font: bold 18px Arial, Verdana, sans-serif;
+	color: #ffffff;
+}
+
+#menu ul li a{
+	color: #ffffff;
+	margin-right: 70px;
+	display: block;
+	line-height: 1;
+}
+
+#menu ul li a:hover, #menu .current{
+	text-decoration: none;
+	border-bottom: 2px solid #ffffff;
+}
+
+#menu ul li span{
+	color: #ff1600;
+}
+
+#menu .phone{
+	float: right;
+	margin-right: 30px;
+	line-height: 1;
+}
+
+.divider{
+	width: 552px;
+	height: 37px;
+	background: url("../images/divider.png") no-repeat;
+	margin: 3px auto 27px;
+}
+
+main{
+	width: 590px;
+	margin: 0 auto;
+}
+
+.red{
+	font-size: 30px;
+	font-weight: bold;
+	color: #a03131;
+	margin-top: 28px;
+}
+
+#social{
+	width: 300px;
+	margin: 15px auto 7px;
+}
+
+#social li{
+	text-align: left;
+	height: 39px;
+	padding-left: 60px; 
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+#social li a{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#fb{
+	background: url("../images/icon-fb.png") no-repeat;
+}
+
+#twitter{
+	background: url("../images/icon-twitter.png") no-repeat;
+}
+
+#rss{
+	background: url("../images/icon-rss.png") no-repeat;
+}
+
+#dribbble{
+	background: url("../images/icon-dribbble.png") no-repeat;
+}
+
+#linkedin{
+	background: url("../images/icon-linkedin.png") no-repeat;
+}
+
+footer{
+	padding-bottom: 27px;
+}
+
+footer p{
+	color: #a03131;
+}
