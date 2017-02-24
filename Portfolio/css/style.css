@@ -5,16 +5,16 @@ body{
 	font-size: 14px;
 	background: url("../images/bg.png");
 	color: #606060;
-	width: 950px;
-	margin: 0 auto;
 }
 header{
+	width: 955px;
+	margin: 0 auto;
 }
 header nav .logo{
 	font-family: 'Bree Serif', serif;
 	font-size: 20px;
 	float: left;
-	margin: 30px 147px 25px 15px;
+	margin: 30px 175px 25px 0;
 }
 header nav .logo img{
 	float: left;
@@ -30,12 +30,28 @@ header nav .logo a{
 }
 header nav ul li{
 	float: left;
-	margin: 35px 3px 30px;
+	margin: 35px 7px 30px;
 }
 header nav ul li a{
 	text-decoration: none;
 	color: #515862;
 	padding: 5px 20px;
+}
+header nav ul li .current{
+	font-weight: 700;
+	font-size: 15px;
+	background-color: #12a3d6;
+	color: #c5f4ff;
+	padding: 36px 10px 20px 15px;
+	border-bottom: 10px solid #0080b7;
+}
+header nav ul li .current::after{
+	content: '';
+	position: relative;
+	left: -25px;
+	bottom: -15px;
+	border: 5px solid transparent;
+	border-bottom: 5px solid #0080b7;
 }
 header nav ul li a:hover{
 	color: #ffffff;
@@ -46,8 +62,48 @@ header nav .search span{
 	float: left;
 	font-size: 12px;
 	color: #515862;
-	margin: 33px 5px 33px 74px;
+	margin: 33px 5px 33px 82px;
 }
 header nav .search img{
 	margin: 22px 5px 20px 0;
+}
+main .banner{
+	background: url("../images/banner-bg.png") center center no-repeat;
+	background-size: cover;
+	height: 296px;
+}
+main .banner h1{
+	font-family: 'Bebas Neue', Arial;
+	font-size: 80px;
+	color: #cccece;
+	padding-top: 120px;
+	padding-left: 40%;
+}
+main section .about{
+	width: 930px;
+	text-align: center;
+	margin: 30px auto;
+}
+main section .about h1{
+	font-family: 'Bebas Neue', Arial;
+	font-size: 50.02px;
+	color: #2190c1;
+	margin-bottom: 15px;
+}
+main section .about p{
+	font-size: 13px;
+	color: #515862;
+	line-height: 20px;
+	margin: 0 18px;
+}
+main section .about .bold{
+	font-weight: 700;
+	margin: 0 0 20px;
+}
+main section .field h1{
+	font-family: 'Bebas', Arial;
+	font-size: 69.52px;
+	text-align: center;
+	color: #515862;
+	word-spacing: 15px;
 }
