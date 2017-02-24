@@ -1,0 +1,53 @@
+@import url(reset.css);
+
+body{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	background: url("../images/bg.png");
+	color: #606060;
+	width: 950px;
+	margin: 0 auto;
+}
+header{
+}
+header nav .logo{
+	font-family: 'Bree Serif', serif;
+	font-size: 20px;
+	float: left;
+	margin: 30px 147px 25px 15px;
+}
+header nav .logo img{
+	float: left;
+	margin-right: 3px;
+}
+header nav .logo a{
+	position: relative;
+	margin-bottom: 28px;
+	text-decoration: none;
+	color: #606060;
+	top: -2px;
+	left: 4px;
+}
+header nav ul li{
+	float: left;
+	margin: 35px 3px 30px;
+}
+header nav ul li a{
+	text-decoration: none;
+	color: #515862;
+	padding: 5px 20px;
+}
+header nav ul li a:hover{
+	color: #ffffff;
+	background-color: #f98561;
+	border-radius: 5px;
+}
+header nav .search span{
+	float: left;
+	font-size: 12px;
+	color: #515862;
+	margin: 33px 5px 33px 74px;
+}
+header nav .search img{
+	margin: 22px 5px 20px 0;
+}
