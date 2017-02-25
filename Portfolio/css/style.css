@@ -53,6 +53,10 @@ header nav ul li .current::after{
 	border: 5px solid transparent;
 	border-bottom: 5px solid #0080b7;
 }
+header nav ul li .current:hover{
+	background-color: #12a3d6;
+	border-radius: 0;
+}
 header nav ul li a:hover{
 	color: #ffffff;
 	background-color: #f98561;
@@ -79,31 +83,76 @@ main .banner h1{
 	padding-top: 120px;
 	padding-left: 40%;
 }
-main section .about{
+main .about{
 	width: 930px;
 	text-align: center;
 	margin: 30px auto;
 }
-main section .about h1{
+main .about h1{
 	font-family: 'Bebas Neue', Arial;
 	font-size: 50.02px;
 	color: #2190c1;
 	margin-bottom: 15px;
 }
-main section .about p{
+main .about p{
 	font-size: 13px;
 	color: #515862;
 	line-height: 20px;
 	margin: 0 18px;
 }
-main section .about .bold{
+main .about .bold{
 	font-weight: 700;
 	margin: 0 0 20px;
 }
-main section .field h1{
+main .field .before-table{
+	border: none;
+	background-color: #cacaca;
+	color: #cacaca;
+	height: 1px;
+	margin: 0;
+}
+main .field .after-table-1{
+	border: none;
+	background-color: #a5a5a5;
+	color: #a5a5a5;
+	height: 3px;
+	margin: 0;
+}
+main .field .after-table-2{
+	border: none;
+	background-color: #cacaca;
+	color: #cacaca;
+	height: 1px;
+	margin: 0;
+}
+main .field h1{
 	font-family: 'Bebas', Arial;
 	font-size: 69.52px;
 	text-align: center;
 	color: #515862;
 	word-spacing: 15px;
+	margin-bottom: 45px;
+}
+main .field table{
+	width: 920px;
+	height: 310px;
+	margin: 0 auto;
+}
+main .field table td{
+	text-align: center;
+	border: 1px solid #d7d7d7;
+	width: 230px;
+	padding: 32px 10px 25px;
+}
+main .field table td h3{
+	font-family: 'Bree Serif', serif;
+	font-size: 20.01px;
+	color: #2190c1;
+	margin-top: 17px;
+	margin-bottom: 16px;
+}
+main .field table td p{
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 17px;
 }
