@@ -156,3 +156,55 @@ main .field table td p{
 	font-weight: 300;
 	line-height: 17px;
 }
+main .team{
+	width: 860px;/*900*/
+	margin: 0 auto;
+}
+main .team h1{
+	font-family: 'Bebas Neue', Arial;
+	font-size: 50.02px;
+	color: #2190c1;
+	margin: 50px 0 40px;
+	text-align: center;
+}
+main .team .block{
+	float: left;
+	height: 290px;
+	width: 380px;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	margin: 0 68px 55px 0;
+}
+main .team .block img{
+	float: left;
+	margin: 13px 30px 25px 11px;
+}
+main .team .block .basic-info{
+	float: left;
+	width: 155px;
+	height: 115px;
+	text-align: center;
+	margin: 20px 54px 36px 0;
+}
+main .team .block .basic-info h1{
+	font-size: 32.6px;
+	margin: 6px 0 0;
+}
+main .team .block .basic-info h2{
+	font-family: 'Bree Serif', serif;
+	font-size: 17.39px;
+	color: #666666;
+}
+main .team .block .basic-info h3{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 13.04px;
+	color: #94979b;
+	margin-bottom: 15px;
+}
+main .team .block p{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 12px;
+	color: #515862;
+	margin: 0 15px 26px 11px;
+	line-height: 19px;
+}
