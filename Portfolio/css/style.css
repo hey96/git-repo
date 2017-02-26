@@ -157,8 +157,9 @@ main .field table td p{
 	line-height: 17px;
 }
 main .team{
-	width: 860px;/*900*/
-	margin: 0 auto;
+	width: 860px;
+	margin: 0 auto 50px;
+	overflow: hidden;
 }
 main .team h1{
 	font-family: 'Bebas Neue', Arial;
@@ -175,8 +176,17 @@ main .team .block{
 	border: 1px solid #cccccc;
 	margin: 0 68px 55px 0;
 }
+main .team .block:nth-child(2n+1){
+	margin: 0 0 55px;
+	box-shadow: 9px -9px 0 0 #d3d3d3, 10px -10px 0 0px #cccccc, 10px -8px 0 0px #cccccc, 8px -10px 0 0px #cccccc;;
+}
+main .team .block:nth-child(2n){
+	box-shadow: -9px -9px 0 0 #d3d3d3, -10px -10px 0 0px #cccccc, -10px -8px 0 0px #cccccc, -8px -10px 0 0px #cccccc;;
+}
 main .team .block img{
 	float: left;
+}
+main .team .block .avatar{
 	margin: 13px 30px 25px 11px;
 }
 main .team .block .basic-info{
@@ -185,6 +195,15 @@ main .team .block .basic-info{
 	height: 115px;
 	text-align: center;
 	margin: 20px 54px 36px 0;
+}
+main .team .block .basic-info .figure{
+	margin: 0;
+}
+main .team .block .basic-info .figure1{
+	margin: 0 9px 0 16px;
+}
+main .team .block .basic-info .figure3{
+	margin: 0 9px 0 9px;
 }
 main .team .block .basic-info h1{
 	font-size: 32.6px;
@@ -207,4 +226,109 @@ main .team .block p{
 	color: #515862;
 	margin: 0 15px 26px 11px;
 	line-height: 19px;
+}
+footer{
+	background: url("../images/footer-bg.png");
+}
+footer .content{
+	color: #a3afb2;
+	font-size: 12.01px;
+	line-height: 20px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 42px 0 30px;
+	width: 925px;
+}
+footer .content hr{
+	border: none;
+	background-color: #556270;
+	color: #556270;
+	height: 1px;
+	margin: 10px 0 10px;
+}
+footer .content a{
+	color: #2190c1;
+	text-decoration: none;
+}
+footer .content h1{
+	color: #f98561;
+	font-family: 'Bebas Neue', Arial;
+	font-size: 30.01px;
+	margin: 0 0 15px;
+}
+footer .content .twitter-feeds{
+	float: left;
+	margin-right: 10px;
+	width: 230px;
+}
+footer .content .twitter-feeds hr{
+	margin-right: 25px;
+}
+footer .content .news-letter{
+	float: left;
+	margin-right: 30px;
+	width: 250px;
+}
+footer .content .news-letter label{
+	color: #2190c1;
+	font-size: 13.01px;
+}
+footer .content .news-letter input[type="email"]{
+	border: none;
+	border-radius: 3px;
+	height: 27px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	width: 245px;
+}
+footer .content .news-letter input[type="submit"]{
+	background-color: #2190c1;
+	border: none;
+	border-radius: 3px;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 13.01px;
+	height: 27px;
+	margin-left: 172px;
+	width: 75px;
+}
+footer .content .recent-projects{
+	float: left;
+	margin-right: 10px;
+	width: 230px;
+}
+footer .content .recent-projects hr{
+	margin-right: 5px;
+}
+footer .content .recent-projects img{
+	float: left;
+	margin-right: 9px;
+}
+footer .content .contact{
+	float: left;
+	width: 150px;
+}
+footer .content .contact .text{
+	font-size: 13.01px;
+	line-height: 16px;
+}
+footer .content .contact .phone .text{
+	padding: 4px 0 12px 55px;
+}
+footer .content .contact .mobile .text{
+	padding: 18px 0 20px 55px;
+}
+footer .content .contact .message .text{
+	padding: 5px 0 0 47px;
+}
+footer .content .contact img{
+	float: left;
+	position: relative;
+}
+footer .content .contact .mobile img {
+	left: 3px;
+	top: 15px;
+}
+footer .content .contact .message img {
+	top: 10px;
 }
